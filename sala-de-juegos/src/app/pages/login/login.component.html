@@ -1,0 +1,30 @@
+<div class="overlay">
+    
+    <form #f="ngForm" class="form-signin">
+        <samp><b>Mail</b></samp>
+        <div>
+            
+            <input 
+            type="email" 
+            name="email" [(ngModel)]="usuario.email" 
+            email 
+            autocomplete="username" 
+            placeholder="Email">
+        </div>
+        
+        <samp><b>Clave</b></samp>
+        <div>
+            <input 
+            type="password" 
+            name="password" [(ngModel)]="usuario.password" 
+            autocomplete="current-password" 
+            placeholder="Password">
+        </div>
+        
+        <div >
+            <button class="btn btn-close" (click)="cancelLogin()"></button>
+        </div>
+            <button type="submit" class="btn btn-lg btn-block btn-primary">Login</button>
+            
+        </form>
+</div>
