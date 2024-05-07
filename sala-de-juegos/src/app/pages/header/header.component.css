@@ -1,0 +1,11 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: #e9ecef;
+    background: linear-gradient(rgba(0, 0, 102), rgba(51, 51, 153));
+    color: white; 
+    text-align: center; 
+    position: relative;
+}
+
+
+
